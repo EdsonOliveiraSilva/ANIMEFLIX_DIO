@@ -1,57 +1,54 @@
-:root{
-    --vermelho:#E50914;
-    --preta:#141414;
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
 }
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 /*elementos base*/
-body{
-   background: var(--preta);
-   font-family: 'Comic Sans MS', Comic Sans, cursive;
-   color:white;
+body {
+    background: var(--preta);
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    color: white;
 }
 
 
-header .container{
-    display:flex;
+header .container {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
-header .logo{
+header .logo {
     margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Jazz LET', fantasy;
-    font-size:50px;
+    font-size: 50px;
 }
 
-header nav a{
-    text-decoration:none;
-    color:#AAA;
+header nav a {
+    text-decoration: none;
+    color: #AAA;
     margin-right: 10px;
 }
 
 
-header nav a:hover{
-    color:#fff;
+header nav a:hover {
+    color: #fff;
 }
 
 /*filme principal*/
-.filme-principal{
-    font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/capa-op2.jpg');
-
-    height:600px;
-    background-size:cover;
- 
-
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/capa-op2.jpg');
+    height: 600px;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,50 +56,49 @@ header nav a:hover{
 }
 
 
-.filme-principal .descricao{
+.filme-principal .descricao {
+    text-align: justify;
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
 
-.filme-principal .titulo{
+.filme-principal .titulo {
     margin-top: 15%;
     font-size: 40px;
     font-family: 'American Typewriter', serif;
 }
 
-.botao{
-    background-color: rgba(0,0,0,.50);
-    border:none;
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
     color: white;
-
-    padding:15px 30px;
+    padding: 15px 30px;
     margin-right: 15px;
     font-size: 12px;
-
     cursor: pointer;
     transition: .3s ease all;
 }
 
-.botao:hover{
-    background-color:white;
-    color:black;
+.botao:hover {
+    background-color: white;
+    color: black;
 }
 
-.botao i{
+.botao i {
     margin-right: 8px;
 }
 
 
-.container{
+.container {
     margin-left: 20px;
 }
 
-.filme-principal .container{
+.filme-principal .container {
     width: 70%;
 }
 
-.box-filme{
+.box-filme {
     height: 100%;
     width: 100%;
     display: block;
@@ -110,21 +106,128 @@ header nav a:hover{
 }
 
 
-.carrosel-filmes{
-    margin-top:5px;
+.carrosel-filmes {
+    margin-top: 5px;
+}
+
+.tokusatsu {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/jaspion.jpg');
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 
+.tokusatsu .descricao {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
 
 
+.tokusatsu .titulo {
+    text-align: justify;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'American Typewriter', serif;
+
+}
+
+.seinen {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/afro.jpg');
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
 
 
+.seinen .descricao {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
 
 
+.seinen .titulo {
+    text-align: justify;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'American Typewriter', serif;
+
+}
+
+.shounen {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/DBZ.jpg');
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
 
 
+.shounen .descricao {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
 
 
+.shounen .descricaotitulo {
+    text-align: justify;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'American Typewriter', serif;
+
+}
+
+.shoujo {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/nana.jpg');
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
 
 
+.shoujo .descricao {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 5px;
 
+}
+
+
+.shoujo .descricaotitulo {
+    text-align: justify;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'American Typewriter', serif;
+
+}
+
+
+footer {
+    margin-left: 15px;
+    text-align: justify;
+    font-size: 12px;
+    color: red;
+}
+
+.backgroundCor {}
